@@ -1,0 +1,29 @@
+{
+    "debug": false,
+    "writeToFile": true,
+    "textLoading": {
+        "directory": "folder",
+        "folderPath": "C:\\Users\\AlecGreene\\Documents\\Scripts\\UELogParser\\LogFolder"
+    },
+    "textParsing": {
+        "summarize": false,
+        "consolidate": true
+    },
+    "display": {
+        "logList": false,
+        "filters": {
+            "type": {
+                "whitelist": ["Error", "Warning"],
+                "blacklist": [],
+                "allowUndefined": false,
+                "ignore": false
+            },
+            "category": {
+                "whitelist": ["Error", "Warning"],
+                "blacklist": [],
+                "allowUndefined": false,
+                "ignore": true
+            }
+        }
+    }
+}
